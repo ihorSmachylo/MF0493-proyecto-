@@ -7,7 +7,7 @@ export const DB_PASSWORD = process.env.DB_PASSWORD || ''
 export const DB_NAME = process.env.DB_NAME || 'peliculas'
 
 /* VALORES THEMOVIEDB.ORG */
-export const TMDB_TOKEN_AUTH = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5OGZlZTM0N2I5MWRhODM5MzJlYThiOWRhYTBlZGVjZSIsInN1YiI6IjYwODJmZTgyMDFiMWNhMDA0MWVjMmUyMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FdoxXdJncEQQ24BduFOAz-P3gt6I7pPd6s7vWc8-NrM';
+export const TMDB_TOKEN_AUTH = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxY2RkNjYwMTg0MDc5Zjg0ZWQ2OTA4OGI2NWMxMGRiMyIsInN1YiI6IjY1MGFkNDVmODFjN2JlMDEwMDUyYTRlOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.yKMh0w54am9hOelr66BlT3fjMsrbPDSR6iGug2zgmTY';
 export const TMDB_FETCH_OPTIONS  = {
     method: 'GET',
     headers: {
